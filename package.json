@@ -1,7 +1,8 @@
 {
+  "homepage":"https://Lakshmanshankar.github.io/SortingVisualizer",
   "name": "react-project",
   "version": "0.1.0",
-  "private": true,
+  "private":false,
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -13,6 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy":"gh-pages run -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
